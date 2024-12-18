@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+body {
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  columns: #fff;
+}
+
+.primary-color {
+  color: #6948ff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+button {
+  width: 100%;
+  padding: 8px 0;
+  border-radius: 4px;
+  border: 1px solid #6948ff;
+  background-color: #6948ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 1px solid #553bcb;
+  background-color: #553bcb;
+}
+.testimonial .outline {
+  background-image: linear-gradient(to left, rgba(73, 50, 173, 0.5),rgba(73, 50, 173, 0.9)),
+  url('https://images.unsplash.com/photo-1562071707-7249ab429b2a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
+}
